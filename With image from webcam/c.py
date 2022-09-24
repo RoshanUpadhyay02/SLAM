@@ -14,21 +14,11 @@ def sketch(image):
 
 cam = cv.VideoCapture(0)
 
-# reading the input using the camera
 result, image = cam.read()
 
-# If image will detected without any error,
-# show result
 if result:
-
-	# showing result, it take frame name and image
-	# output
-
-	# saving image in local storage
+	
 	cv.imwrite("img.jpg", sketch(image))
-    
-	# If keyboard interrupt occurs, destroy image
-	# window
 
 image = cv.imread('img.jpg')
 up_width = 1200

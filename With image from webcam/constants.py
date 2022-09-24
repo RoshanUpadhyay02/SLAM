@@ -1,5 +1,3 @@
-"""Constants for PyGame."""
-
 BLACK = (0, 0, 0)
 GREY = (0, 0, 0)
 WHITE = (0, 0, 0)
